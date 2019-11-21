@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/game.css"/>
+    <title>MineSweeper</title>
+</head>
+<body oncontextmenu="{return false;}" onload="initGame()">
+    <div>
+        <h1 onclick ="smileyClick()"class="smiley">😃</h1>
+    </div>>
+    <div class="hints-panel" >
+        <button onclick = "hintClicked()">Hint</button>
+        <span class="hintsCountContainer">3</span> 
+        <span>Hints Left.</span>
+        <span class="hintSafeModeSpan"> Beware of Mines!!</span> 
+    </div>
+    <div class="board-container"></div>
+    <script src="js/util.js"></script> 
+    <script src="js/game.js"></script>
+</body>
+</html>

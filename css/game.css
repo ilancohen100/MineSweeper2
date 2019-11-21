@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color:white;
+  }
+  
+  
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    /* font-size: 1.5em; */
+  }
+  .board-container{
+    background-color: aqua;
+}
+.hints-panel {
+  background-color: blueviolet;
+}
